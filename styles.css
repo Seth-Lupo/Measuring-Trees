@@ -1,0 +1,190 @@
+
+body, html {
+
+	max-height: 100%;
+	background-color: #dcc9af;
+
+}
+
+a {
+  color: #3e3c21;
+}
+
+.contentimg {
+
+	margin: 0px auto 50px auto;
+
+}
+
+#subtitle {
+
+
+	font-family: "Inknut Antiqua", serif;
+	font: italics;
+
+	font-size: 30px;
+	margin: 0px 0px 50px 0px;
+}
+
+
+.contentparadiv {
+
+	margin: 0px auto 50px auto;
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+	width: 70%;
+	text-align: left;
+
+
+}
+
+.subheading {
+
+	font-size: 62px;
+
+}
+
+#authordiv {
+
+		padding: 5px;
+		display: flex;
+		flex-flow: row;
+		width: 40%;
+		justify-content: center;
+		margin: 0 auto 50px auto;
+		background-color: #94867e;
+		padding: 2% 5% 2% 5%;
+		box-shadow: 1px 1px 20px;
+		border-radius: 10%;
+}
+
+#authorimg {
+
+	flex-grow: 1;
+	
+
+}
+
+#authorinfo {
+
+	flex-grow: 3;
+	margin-top: auto;
+	margin-bottom: auto;
+
+
+
+}
+
+
+#main {
+
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	max-height: 100%;
+	position: absolute;
+
+
+}
+
+#sidebar {
+
+	display: flex;
+	flex-direction: row;
+	min-height: 100%;
+
+	background-color: #919b3e;
+	box-shadow: 10px 10px 100px;
+}
+
+
+#tableofcontentsdiv {
+
+	width: 450px;
+	min-height: 100%;
+
+	flex-grow: 7;
+
+	padding: 60px;
+
+	font-family: "Inknut Antiqua", serif;
+
+
+}
+
+#sidebarbuttondiv {
+
+	flex-grow: 7;
+	min-height: 100%;
+	display: flex;
+	flex-direction: vertical;
+	justify-content: center;
+
+
+}
+
+#dropdownimg {
+
+	margin-top: auto;
+	margin-bottom: auto;
+	transform: rotate(90deg);
+
+
+
+}
+
+
+
+
+#content {
+
+	width:100%;
+	max-height: 100%;
+	text-align: center;
+	padding: 100px;
+	overflow-y: scroll;
+
+}
+
+h1 {
+
+	font-family: "Inknut Antiqua", serif;
+	font: bold;
+
+	font-size: 84px;
+	margin-bottom: 10px;
+
+}
+
+h3 {
+
+	font-family: "Inknut Antiqua", serif;
+	font: bold;
+	margin-bottom: 40px;
+	font-size: 36px;
+
+}
+
+li {
+
+	margin-bottom: 10px;
+
+}
+
+#tableofcontents {
+
+	font-size: 24px;
+
+}
+
+#tableofcontentsheader {
+
+	margin-bottom: 20px;
+
+}
+
+.flip {
+
+transform: rotate(180deg);
+
+}
